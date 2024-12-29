@@ -57,6 +57,16 @@ a {
     color: white;
 }
 
+li a {
+    display: block;
+    margin-bottom: 15px;
+    background-color: var(--clr-grey);
+    padding: 13px 95px;
+    text-align: center;
+    border-radius: 7px;
+    transition: 0.2s;
+}
+
 h1 {
     font-weight: var(--fw-normal);
     font-size: 2.6rem;
@@ -92,6 +102,11 @@ h1 {
     font-weight: var(--fw-semi-bold);
 }
 
+.description {
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
 /* ids */
 
 #last-link {
@@ -100,14 +115,12 @@ h1 {
 
 /* hover */
 
-.link:hover {
+li a:hover {
     background-color: var(--clr-green);
-    transition: 0.2s;
-}
-
-.link a:hover{
+    transition: 0.4s;
     color: black;
 }
+
 
 /* Frontend Mentor */
 
